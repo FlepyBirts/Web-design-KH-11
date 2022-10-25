@@ -1,1 +1,23 @@
-
+<header>
+    <div id="contact_us">
+    <div class="width_limiter">
+    Зво<span id=""></span>
+    </div>
+    </div>
+    
+    <div id="high_banner">
+    <div class="width_limiter">
+    <img src="img/.png">
+    </div>
+    </div>
+    
+    <nav class="menu">
+    <ul>
+    <li><a href="index.php">«Базова інформація»</a></li>
+    <li><a href="biography.html.php">«Дитинство»</a></li>
+    <li><a href="biography.html.php">«Шкільні роки»</a></li>
+    <li><a href="biography.html.php">«Поза школою»</a></li>
+    <li id="last_item"><a href="biography.html.php">«Університет»</a></li>
+    </ul>
+    </nav>
+    </header>
