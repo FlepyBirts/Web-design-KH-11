@@ -1,0 +1,110 @@
+.ggg {
+    
+    position: relative;
+    float: right;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    flex-wrap: wrap;
+}
+#uuu1 {
+    
+    font-size: 120%;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    background-color: blue;
+    color: yellow;
+}
+#uuu2{
+    
+    font-size: 120%;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+ 
+}
+#uuu3 {
+    
+    font-size: 120%;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    background-color: orange;
+    color: black;
+}
+#uuu4 {
+    
+    font-size: 120%;
+    font-family: 'Playfair Display', serif;
+    border: 1px solid black;
+    background-color: purple;
+    color: yellow;
+    
+}
+.ddd1 {
+    
+    font-family: 'Oswald', sans-serif;
+}
+#qqq1 {
+   
+    background-color: yellow;
+    color: rgb(5, 1, 1);
+}
+#qqq2 {
+    
+    background-color: rgb(0, 162, 255);
+    color: rgb(27, 25, 25);
+}
+#qqq3 {
+
+    background-color: rgb(153, 0, 255);
+    color: rgb(15, 11, 11);
+}
+#qqq4 {
+    
+    background-color: rgb(255, 0, 179);
+    color: rgb(10, 5, 5);
+}
+.ttt{
+    
+    position: relative;
+    margin-top: 1%;
+    margin-left: 32%;
+}
+table, th, td {
+    
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+@media (min-width: 1200px) {
+    
+    .col-xxxlg-3 {
+        width: 25%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    
+    .col-md-6 {
+        width: 50%;
+    }
+}
+@media (max-width: 767px) {
+   
+    .ggg{
+
+        flex-direction: column;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+}
